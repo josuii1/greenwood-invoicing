@@ -2,68 +2,15 @@
 client/node_modules/
 server/node_modules/
 
-# Logs
-logs/
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
 # Environment variables
 .env
-
-# Build directories
-dist/
-build/
-
 # Dependency directories
 node_modules/
 jspm_packages/
 
-# Cache and lock files
-*.cache
-*.lock
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# IDE and Editor directories and files
-.vscode/
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-
-# npm package files
-package-lock.json
-yarn.lock
-
-# Other potential build files
-*.exe
-*.out
-*.app
-*.dmg
-
-# Coverage directory
-coverage/
-
-# Temporary files
-tmp/
-temp/
-*.swp
-*.bak
-*.tmp
-*.swm
-
 # TypeScript cache
 *.tsbuildinfo
 
-# Compiled JavaScript files
-*.js
-*.jsx
-*.map
 
 # MacOS generated files
 *.DS_Store
