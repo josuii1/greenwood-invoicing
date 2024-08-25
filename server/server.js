@@ -138,10 +138,6 @@ app.get("/invoices/create/currentnumber", async (req, res) => {
   res.json(currentInvoicePlace[0].CurrentInvoicePlace);
 });
 
-app.listen(5520, () => {
-  console.log("server started on port 5520");
-});
-
 app.delete("/invoices/delete/:id", async (req, res) => {
   const invoiceId = parseInt(req.params.id, 10);
   try {
@@ -153,3 +149,8 @@ app.delete("/invoices/delete/:id", async (req, res) => {
       .json({ message: "Error deleting invoice", error: error.message });
   }
 });
+
+app.listen(5520, () => {
+  console.log("server started on port 5520");
+});
+

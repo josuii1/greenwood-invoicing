@@ -7,14 +7,3 @@ server/node_modules/
 # Dependency directories
 node_modules/
 jspm_packages/
-
-# TypeScript cache
-*.tsbuildinfo
-
-
-# MacOS generated files
-*.DS_Store
-
-# Windows generated files
-Thumbs.db
-ehthumbs.db
