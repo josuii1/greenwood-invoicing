@@ -1,5 +1,6 @@
 # Node modules directory for both client and server
 client/node_modules/
+client/build/
 server/node_modules/
 
 # Environment variables
